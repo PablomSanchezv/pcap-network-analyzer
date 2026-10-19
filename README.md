@@ -79,6 +79,19 @@ Replace the example file or directory paths with paths to your own authorized pa
 - Command-line tool development
 - JSON output and file handling
 
+## Testing
+
+The analyzer was tested locally using a sample PCAP file containing 142,966 packets.
+
+The test successfully generated a text report containing:
+- Total packet and byte counts
+- Protocol statistics
+- Top source and destination IP addresses
+- Destination port statistics
+- Network connection summaries
+
+The sample PCAP file and generated report are not included in this repository to avoid publishing potentially sensitive network information.
+
 ## Disclaimer
 
 This project is intended for educational use and authorized network analysis only. Analyze only packet captures you have permission to access.
